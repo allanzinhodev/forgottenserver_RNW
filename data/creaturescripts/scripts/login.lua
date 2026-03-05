@@ -27,5 +27,10 @@ function onLogin(player)
 	-- Events
 	player:registerEvent("PlayerDeath")
 	player:registerEvent("DropLoot")
+
+	-- FFTA Spell Learning System
+	player:registerEvent("FFTAKillTracker")
+	FftaSpells.restoreLearnedSpells(player)
+
 	return true
 end

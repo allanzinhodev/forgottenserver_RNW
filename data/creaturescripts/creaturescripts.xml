@@ -8,4 +8,6 @@
 	<event type="death" name="PlayerDeath" script="player_death.lua" />
 	<event type="death" name="DropLoot" script="drop_loot.lua" />
 	<event type="extendedopcode" name="ExtendedOpcode" script="extended_opcode.lua" />
+	<event type="kill" name="FFTAKillTracker" script="ffta_kill_tracker.lua" />
 </creaturescripts>
+
