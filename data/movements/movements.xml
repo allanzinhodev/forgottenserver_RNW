@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movements>
+	<!-- FFTA Spell Learning System — equip/unequip hooks -->
+	<!-- Add a pair of Equip/DeEquip entries for every itemId in FftaSpells.config -->
+	<movevent event="Equip"   itemid="2400" slot="right" script="ffta_equipment.lua" />
+	<movevent event="DeEquip" itemid="2400" slot="right" script="ffta_equipment.lua" />
+	<movevent event="Equip"   itemid="2400" slot="left"  script="ffta_equipment.lua" />
+	<movevent event="DeEquip" itemid="2400" slot="left"  script="ffta_equipment.lua" />
+	<movevent event="Equip"   itemid="2389" slot="right" script="ffta_equipment.lua" />
+	<movevent event="DeEquip" itemid="2389" slot="right" script="ffta_equipment.lua" />
+	<movevent event="Equip"   itemid="2389" slot="left"  script="ffta_equipment.lua" />
+	<movevent event="DeEquip" itemid="2389" slot="left"  script="ffta_equipment.lua" />
+
 	<!-- Decaying tiles -->
 	<movevent event="StepIn" itemid="293" script="decay.lua" />
 	<movevent event="StepIn" itemid="461" script="decay.lua" />
